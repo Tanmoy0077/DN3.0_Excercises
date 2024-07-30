@@ -11,6 +11,6 @@ public class Order {
 
     @Override
     public String toString() {
-        return "Order ID: " + orderId + ", Customer Name: " + customerName + ", Total Price: $" + totalPrice;
+        return "Order ID: " + orderId + ", Customer Name: " + customerName + ", Total Price: Rs. " + totalPrice;
     }
 }
